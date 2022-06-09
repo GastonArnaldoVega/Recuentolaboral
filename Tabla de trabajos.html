@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laburo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Blaka&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Recuento diario</h1>
+    <div id="tabledate">
+    <form id="formularios">
+        <label for="Type"> Tipo de trabajo
+            <select name="Type" id="Type" class="Type">
+                <option value="Llamada">Llamada</option>
+                <option value="COF">COF</option>
+                <option value="Ticket">Ticket</option>
+                <option value="EMAIL">EMAIL</option>
+                <option value="Otros">Otros</option>
+            </select></label>
+        <br>
+        <label for="numerticket">Numero del Ticket
+        <input class="acompletar" id="numerticket" name="numerticket" type="number"></label><br>
+        <label for="descar">Asunto de email
+        <input class="acompletar" id="Email" name="Email"></label><br>
+        <button id="button">Guardar</button>
+    </form></div>
+    <div class="tableresult">
+        <table id="tabladeresultados">
+            <tr>
+                <th>Tipo</th>
+                <th>Numero del Ticket</th>
+<!--                <th>Hora</th>-->
+                <th>Asunto de email</th>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="proyecto.js"></script>
+</html>

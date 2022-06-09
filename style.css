@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body{
+    background-image: url(https://i.pinimg.com/originals/da/70/02/da700211c81f8725ead2823d2cf581d6.gif);
+    color: azure;
+}
+#Type{
+    size: 2vw;
+}
+#tabledate{
+    color: crimson;
+    text-align:center ;
+    font-family: 'Pacifico', cursive;
+    font-size: 2vw;
+}
+.acompletar{
+    width: 30%;
+    border-radius: 2    0%;
+    height: 2vw;
+    
+}
+.tableresult table{
+    margin:0 auto
+}
+td,
+th{
+    color: red;
+    text-align: center;
+    padding: 10px;
+    border: solid red 1px;
+    border-radius: 10%;
+}
+h1{
+   color: #8b2323;
+   font-family: 'Pacifico', cursive;
+}
+#Type{
+    text-align: justify;
+    height: 5vw;
+    width: 12vw;
+}
+#button{
+    border-radius: 40%;
+    
+}
+button:hover{
+    animation-name: fondo;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+@keyframes fondo{
+    100%{
+        background-color: #8b2323;
+    }
+}
